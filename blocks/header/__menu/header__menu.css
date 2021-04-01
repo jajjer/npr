@@ -1,4 +1,12 @@
 .header__menu {
+    display: flex;
     color: white;
-    margin: auto 25px auto auto;
+    /*margin: auto 25px auto auto;*/
+    align-items: center;
+}
+
+@media screen and (max-width: 568px) {
+    .header__menu {
+        margin-bottom: 8px;
+    }
 }

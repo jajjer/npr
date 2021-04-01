@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="index.css" type="text/css">
     <title>Please Hire Me NPR</title>
 </head>
+
 <body class="page">
 
     <header class="header">
@@ -18,24 +20,27 @@
                     <p class="header__me">ME</p>
                 </div>
             </div>
-             <div class="header__options">
+            <div class="header__options">
                 <div class="header__signin"><a href="#" target="_blank">SIGN IN</a></div>
-                 <div class="header__signin"><p>NPR SHOP</p></div>
-                <button class="header__donate">&#9829; DONATE</button>
-             </div>
-            <div class="header__player">
-                <div class="header__block">
-                    <p class="header__listen"><b>Listen Live:</b> Man Wants Job at NPR</p>
+                <div class="header__signin">
+                    <p>NPR SHOP</p>
                 </div>
-                <audio controls></audio>
+                <button class="header__donate">&#9829; DONATE</button>
             </div>
         </div>
+        <div class="header__player">
+            <div class="header__block">
+                <p class="header__listen"><b>Listen Live:</b> Man Wants Job at NPR</p>
+            </div>
+            <audio controls class="header__audio"><source src="audio/audio.mp3" type="audio/mpeg"></audio>
+        </div>
+
         <div class="header__bar">
-            <nav class="header__menu"><img class="header__symbol" src="./images/table.png">NEWS</nav>
-            <nav class="header__menu"><img class="header__symbol" src="./images/person.png">ARTS & LIFE</nav>
-            <nav class="header__menu"><img class="header__symbol" src="./images/music.jpeg">MUSIC</nav>
-            <nav class="header__menu"><img class="header__symbol" src="./images/headphones.png">SHOWS & PODCASTS</nav>
-            <nav class="header__menu"><img class="header__symbol" src="./images/search.png">SEARCH</nav>
+            <nav class="header__menu"><img class="header__symbol" src="./images/table.png" alt="table">NEWS</nav>
+            <nav class="header__menu"><img class="header__symbol" src="./images/person.png" alt="person">ARTS & LIFE</nav>
+            <nav class="header__menu"><img class="header__symbol" src="./images/music.png" alt="music note">MUSIC</nav>
+            <nav class="header__menu"><img class="header__symbol" src="./images/headphones.png" alt="headphones">SHOWS & PODCASTS</nav>
+            <nav class="header__menu"><img class="header__symbol" src="./images/search.png" alt="search">SEARCH</nav>
         </div>
     </header>
 
@@ -53,158 +58,159 @@
                 <h1 class="hire-me__title">Man Really Wants Junior Front End Developer Job at NPR</h1>
                 <p class="hire-me__text">A young developer, Jacob Jensen, has gone to great lengths to try to persuade NPR to hire him. "I really can't express how much I love NPR and how much I want this job", said Jensen. Will he get the job? Listen live to find out.</p>
                 <ul class="hire-me__list">
-                    <li><p class="hire-me__subtext">Latest updates on his software engineering career.</p></li>
-                    <li><p class="hire-me__subtext">Why he should work for NPR.</p></li>
+                    <li>
+                        <p class="hire-me__subtext">Latest updates on his software engineering career.</p>
+                    </li>
+                    <li>
+                        <p class="hire-me__subtext">Why he should work for NPR.</p>
+                    </li>
                 </ul>
             </article>
             <div class="hire__pic"></div>
         </section>
 
-        <article class= "article">
+        <article class="article">
             <h4 class="article__subtitle">TECHNOLOGY</h4>
             <h3 class="article__title">HTML, CSS, JavaScript, React, Python</h3>
             <p class="article__text">I have proven expereince with HTML & CSS, particularly grid, media queries, and animations. I also have expertise with JavaScript and React, as well as familiarity with Python for backend engineering.</p>
-            <img class="article__image">
-            <p class="article__description"></p>
         </article>
 
-        <article class= "article">
+        <article class="article">
             <h4 class="article__subtitle">EDUCATION</h4>
             <h3 class="article__title">B.S. in Psychology & a Front End Developer Certification</h3>
             <p class="article__text">I graduated from the University of Minnesota with a bachelor of science in Psychology. I am currently finishing a Front End Developer certification through Practicum by Yandex.</p>
-            <img class="article__image">
-            <p class="article__description"></p>
         </article>
 
-        <article class= "article">
+        <article class="article">
             <h4 class="article__subtitle">JOBS</h4>
             <h3 class="article__title">Looking For Front End Job</h3>
             <p class="article__text">My professional background is in mental health and video production, but I am hoping to make Front End Development my new career.</p>
-            <img class="article__image">
-            <p class="article__description"></p>
         </article>
 
-        <article class= "article">
+        <article class="article">
             <h4 class="article__subtitle">ALL THINGS CONSIDERED</h4>
             <h3 class="article__title">You Should Really Hire Me</h3>
-            <p class="article__text">Although I am fairly new to web development and don't necessarily have the experience that you may be looking for, I promise I will work as hard as it takes and learn what I need to know to write great code for NPR. I love what NPR stands for and it would be an honor to work for you.</p>
-            <img class="article__image">
-            <p class="article__description"></p>
+            <p class="article__text">Although I am fairly new to web development and don't necessarily have the experience that you may be looking for, I promise I will work as hard as it takes and learn what I need to know to write great code for NPR. I love what NPR stands
+                for and it would be an honor to work for you.</p>
         </article>
 
-        <article class= "article">
-            <h4 class="article__subtitle"></h4>
-            <h3 class="article__title"></h3>
-            <p class="article__text"></p>
-            <img class="article__image">
-            <p class="article__description"></p>
-        </article>
+        <section class="option">
+            <div class="options">
+                <div>
+                    <p class="options__title">READ & LISTEN</p>
+                    <ul class="options__list">
+                        <li class="options__subtitle">
+                            <a class="options__link">Home</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">News</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Arts & Life</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Music</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Podcasts</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Programs</a>
+                        </li>
+                    </ul>
+                </div>
 
-        <section class="options">
-                <ul class="options__list">
-                    <h6 class="options__title">READ & LISTEN</h6>
-                    <li class="options__subtitle">
-                        <a class="options__link">Home</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">News</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Arts & Life</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Music</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Podcasts</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Programs</a>
-                    </li>
-                </ul>
+                <div>
+                    <p class="options__title">Connect</p>
+                    <ul class="options__list">
+                        <li class="options__subtitle">
+                            <a class="options__link">Newsletters</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Facebook</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Twitter</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Instagram</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Press</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Contact & Help</a>
+                        </li>
+                    </ul>
+                </div>
 
-                <ul class="options__list">
-                    <h6 class="options__title">Connect</h6>
-                    <li class="options__subtitle">
-                        <a class="options__link">Newsletters</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Facebook</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Twitter</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Instagram</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Press</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Contact & Help</a>
-                    </li>
-                </ul>
 
-                <ul class="options__list">
-                    <h6 class="options__title">About NPR</h6>
-                    <li class="options__subtitle">
-                        <a class="options__link">Overview</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Diversity</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Ethics</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Finances</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Public Editor</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Corrections</a>
-                    </li>
-                </ul>
+                <div>
+                    <p class="options__title">About NPR</p>
+                    <ul class="options__list">
+                        <li class="options__subtitle">
+                            <a class="options__link">Overview</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Diversity</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Ethics</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Finances</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Public Editor</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Corrections</a>
+                        </li>
+                    </ul>
+                </div>
 
-                <ul class="options__list">
-                    <h6 class="options__title">Get Involved</h6>
-                    <li class="options__subtitle">
-                        <a class="options__link">Support Public Radio</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">Sponsor NPR</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">NPR Careers</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">NPR Shop</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">NPR Events</a>
-                    </li>
-                    <li class="options__subtitle">
-                        <a class="options__link">NPR Extra</a>
-                    </li>
-                </ul>
+                <div>
+                    <p class="options__title">Get Involved</p>
+                    <ul class="options__list">
+                        <li class="options__subtitle">
+                            <a class="options__link">Support Public Radio</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">Sponsor NPR</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">NPR Careers</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">NPR Shop</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">NPR Events</a>
+                        </li>
+                        <li class="options__subtitle">
+                            <a class="options__link">NPR Extra</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer class="footer">
         <div class="footer__line"></div>
         <div class="footer__text">
-        <nav class="footer__link">
-            <ul class="footer__link-list">
-                <li><a class="footer__link-item" href="#" target="_blank">terms of use</a></li>
-                <li><a class="footer__link-item" href="#" target="_blank">privacy</a></li>
-                <li><a class="footer__link-item" href="#" target="_blank">your privacy choices</a></li>
-                <li><a class="footer__link-item" href="#" target="_blank">text only</a></li>
-            </ul>
-        </nav>
-        <p class="footer__copyright">© 2021 Jacob Jensen</p>
-    </div>
+            <nav class="footer__link">
+                <ul class="footer__link-list">
+                    <li><a class="footer__link-item" href="#" target="_blank">terms of use</a></li>
+                    <li><a class="footer__link-item" href="#" target="_blank">privacy</a></li>
+                    <li><a class="footer__link-item" href="#" target="_blank">your privacy choices</a></li>
+                    <li><a class="footer__link-item" href="#" target="_blank">text only</a></li>
+                </ul>
+            </nav>
+            <p class="footer__copyright">© 2021 Jacob Jensen</p>
+        </div>
 
     </footer>
 </body>
+
 </html>

@@ -5,3 +5,9 @@
     opacity: 0.8;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 568px) {
+    .footer__line {
+        width: 100%;
+    }
+}

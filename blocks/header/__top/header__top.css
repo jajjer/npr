@@ -1,17 +1,12 @@
 .header__top {
     display: flex;
     flex-direction: row;
+    max-height: 150px;
     align-items: center;
-    margin: 15px auto 25px;
+    margin-top: 50px;
 }
 
-/*@media screen and (max-width: 1024px) {
-    .header__top {
-        
-    }
-}*/
-
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
     .header__top {
         flex-direction: column;
     }

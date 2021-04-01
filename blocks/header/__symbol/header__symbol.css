@@ -4,4 +4,6 @@
     color: white;
     margin-right: 5px;
     /*border-radius: 50%;*/
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
 }

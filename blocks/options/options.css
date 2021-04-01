@@ -2,25 +2,24 @@
 @import url(./__subtitle/options__subtitle.css);
 @import url(./__title/options__title.css);
 @import url(./__list/options__list.css);
-
 .options {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
+    grid-template-columns: repeat(4, 200px);
+    /*grid-gap: 16px;*/
     margin: 0 auto;
-    max-width: 1280px;
+    /*max-width: 1280px;*/
 }
 
 @media screen and (max-width: 1024px) {
     .options {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 1024px;
+        grid-template-columns: repeat(2, 200px);
+        /*max-width: 1024px;*/
     }
 }
 
 @media screen and (max-width: 568px) {
     .options {
-        grid-template-columns: 1fr;
-        max-width: 568px;
+        grid-template-columns: 200px;
+        /*max-width: 568px;*/
     }
 }

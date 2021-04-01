@@ -4,10 +4,10 @@
 @import url(./__link/footer__link.css);
 @import url(./__line/footer__line.css);
 @import url(./__text/footer_text.css);
-
 .footer {
     display: flex;
     flex-direction: column;
     align-content: center;
     margin: 15px auto 15px;
+    width: 100%;
 }

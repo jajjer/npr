@@ -3,4 +3,6 @@
     height: 75px;
     background-color: #244882;
     border-radius: 5%;
+    align-content: center;
+    justify-content: center;
 }

@@ -12,20 +12,17 @@
 @import url(./__listen/header__listen.css);
 @import url(./__logos/header__logos.css);
 @import url(./__symbol/header__symbol.css);
-
+@import url(./__options/header__options.css);
+@import url(./__audio/header__audio.css);
 .header {
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
-    .header {
-        
-    }
+    .header {}
 }
 
 @media screen and (max-width: 568px) {
-    .header {
-       
-    }
+    .header {}
 }

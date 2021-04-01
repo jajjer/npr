@@ -8,3 +8,15 @@
     margin-right: 0;
     padding-left: 0px;
 }
+
+@media screen and (max-width: 68px) {
+    .footer__link-list {
+        margin: 0 auto 0;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .footer__link-list {
+        flex-direction: column;
+    }
+}

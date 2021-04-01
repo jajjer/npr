@@ -5,3 +5,9 @@
     line-height: 28px;
     margin-right: 195px;
 }
+
+@media screen and (max-width: 768px) {
+    .header__me {
+        margin-right: 0;
+    }
+}

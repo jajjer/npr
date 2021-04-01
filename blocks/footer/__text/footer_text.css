@@ -1,6 +1,16 @@
 .footer__text {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
-    margin-left: 55px;
+    margin: 10px auto 10px;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__text {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto 0;
+    }
 }

@@ -4,3 +4,9 @@
     font-size: 14px;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    .footer__text {
+        margin-right: 0;
+    }
+}
