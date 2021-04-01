@@ -1,0 +1,6 @@
+.options__list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0px;
+    max-width: 200px;
+}

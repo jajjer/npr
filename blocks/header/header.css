@@ -1,0 +1,31 @@
+@import url(./__hire/header__hire.css);
+@import url(./__me/header__me.css);
+@import url(./__donate/header__donate.css);
+@import url(./__logo/header__logo.css);
+@import url(./__menu/header__menu.css);
+@import url(./__signin/header__signin.css);
+@import url(./__hireme/header__hireme.css);
+@import url(./__bar/header__bar.css);
+@import url(./__top/header__top.css);
+@import url(./__block/header__block.css);
+@import url(./__player/header__player.css);
+@import url(./__listen/header__listen.css);
+@import url(./__logos/header__logos.css);
+@import url(./__symbol/header__symbol.css);
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .header {
+       
+    }
+}

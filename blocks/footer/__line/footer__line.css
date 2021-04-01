@@ -1,0 +1,7 @@
+.footer__line {
+    height: 2px;
+    width: 90%;
+    background-color: #767676;
+    opacity: 0.8;
+    margin: 0 auto;
+}

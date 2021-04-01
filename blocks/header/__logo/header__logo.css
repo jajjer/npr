@@ -1,0 +1,7 @@
+.header__logo {
+    width: 198px;
+    height: 65px;
+    background-image: url(../../../images/npr-logo.svg);
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}

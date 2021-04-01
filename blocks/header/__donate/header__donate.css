@@ -1,0 +1,8 @@
+.header__donate {
+    width: 90px;
+    height: 32px;
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+}

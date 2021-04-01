@@ -1,0 +1,12 @@
+@import url(./__subtext/hire-me__subtext.css);
+@import url(./__subtitle/hire-me__subtitle.css);
+@import url(./__text/hire-me__text.css);
+@import url(./__title/hire-me__title.css);
+@import url(./__list/hire-me__list.css);
+
+.hire-me {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}

@@ -1,0 +1,7 @@
+@import url(./__pic/hire__pic.css);
+
+.hire {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}

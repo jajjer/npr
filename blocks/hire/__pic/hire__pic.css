@@ -1,0 +1,7 @@
+.hire__pic {
+    background-image: url(../../../images/headshot.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+}
