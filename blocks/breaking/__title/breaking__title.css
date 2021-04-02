@@ -1,0 +1,33 @@
+.breaking__title {
+    width: 20%;
+    text-align: center;
+    background: #c81c1c;
+    position: relative;
+    color: #ffffff;
+}
+
+
+/*.breaking__title:after {
+    position: absolute;
+    content: "";
+    right: -16%;
+    border-left: 20px solid #c81c1c;
+    border-top: 33px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 28px solid transparent;
+    top: 0;
+}*/
+
+.breaking__title h5 {
+    font-size: 18px;
+    margin: 8% 0;
+}
+
+@media screen and (max-width: 768px) {
+    .breaking__title h5 {
+        font-size: 15px;
+    }
+    .breaking__title {
+        width: 35%;
+    }
+}

@@ -2,11 +2,12 @@
 @import url(./__subtitle/options__subtitle.css);
 @import url(./__title/options__title.css);
 @import url(./__list/options__list.css);
+@import url(./__div/options__div.css);
 .options {
     display: grid;
     grid-template-columns: repeat(4, 200px);
     /*grid-gap: 16px;*/
-    margin: 0 auto;
+    margin: 0 auto 25px;
     /*max-width: 1280px;*/
 }
 

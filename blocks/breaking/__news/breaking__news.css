@@ -1,0 +1,15 @@
+                .breaking__news {
+                width: 76%;
+                background: #ff0d2d;
+                padding: 0 2%;
+            }
+            
+            .breaking__news marquee {
+                font-size: 18px;
+                color: #ffffff;
+            }
+            
+            @media screen and (max-width: 768px) {
+                .breaking__news {
+                    width: 60%;
+                }
